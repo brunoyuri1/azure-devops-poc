@@ -2,10 +2,10 @@ const azdev = require("azure-devops-node-api");
 const PolicyApi = require("azure-devops-node-api/PolicyApi");
 
 // your collection url
-let orgUrl = "https://dev.azure.com/brunoyurijacinto";
+let orgUrl = "";
 
 // access token
-let token = "lrfa2pilfrpawrrcptmckobi2h72kh65rl5jxntxuzyvj4pluesa";
+let token = "";
 
 let authHandler = azdev.getPersonalAccessTokenHandler(token);
 let connection = new azdev.WebApi(orgUrl, authHandler);

@@ -3,8 +3,8 @@ import AzureDevOpsReposManager from "../src/AzureDevOpsReposManager";
 import GitInterfaces from "azure-devops-node-api/interfaces/GitInterfaces";
 
 test("Should return default branch of the repository specified", async function () {
-    const orgUrl = "https://dev.azure.com/brunoyurijacinto";
-    const userToken = "tsmy3a3czejvqmsbuixqx3cnp6bjbkpqatmq3p3mg55fkddkejia";
+    const orgUrl = "";
+    const userToken = "";
     const projectName = "PacktAzureDevOps";
     const repositoryName = "PacktAzureDevOps";
 
@@ -16,8 +16,8 @@ test("Should return default branch of the repository specified", async function 
 });
 
 test("Should return an empty, if default branch not founded", async function () {
-    const orgUrl = "https://dev.azure.com/brunoyurijacinto";
-    const userToken = "tsmy3a3czejvqmsbuixqx3cnp6bjbkpqatmq3p3mg55fkddkejia";
+    const orgUrl = "";
+    const userToken = "";
     const projectName = "PacktAzureDevOps";
     const repositoryName = "PacktAzureDevOps2";
 
@@ -29,8 +29,8 @@ test("Should return an empty, if default branch not founded", async function () 
 });
 
 test("Should create a branch based on the default branch of the repository", async function () {
-    const orgUrl = "https://dev.azure.com/brunoyurijacinto";
-    const userToken = "tsmy3a3czejvqmsbuixqx3cnp6bjbkpqatmq3p3mg55fkddkejia";
+    const orgUrl = "";
+    const userToken = "";
     const projectName = "PacktAzureDevOps";
     const repositoryName = "PacktAzureDevOps";
     const date = new Date();
@@ -48,8 +48,8 @@ test("Should create a branch based on the default branch of the repository", asy
 });
 
 test("Should create a branch based on the specified branch", async function () {
-    const orgUrl = "https://dev.azure.com/brunoyurijacinto";
-    const userToken = "tsmy3a3czejvqmsbuixqx3cnp6bjbkpqatmq3p3mg55fkddkejia";
+    const orgUrl = "";
+    const userToken = "";
     const projectName = "PacktAzureDevOps";
     const repositoryName = "PacktAzureDevOps";
     const date = new Date();
@@ -68,8 +68,8 @@ test("Should create a branch based on the specified branch", async function () {
 });
 
 test("Should apply all policies in one branch based on default branch", async function () {
-    const orgUrl = "https://dev.azure.com/brunoyurijacinto";
-    const userToken = "tsmy3a3czejvqmsbuixqx3cnp6bjbkpqatmq3p3mg55fkddkejia";
+    const orgUrl = "";
+    const userToken = "";
     const projectName = "PacktAzureDevOps";
     const repositoryName = "PacktAzureDevOps";
     const branchName = "2024-03-04T02-14-25-165Z-teste5";
